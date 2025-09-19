@@ -1,10 +1,10 @@
-    body {
+body{
             background: rgba(0, 250, 0, 0.04);
         }
 
         a{text-decoration-line:none !important;}
         img {
-            height: 80vh;
+            height: 70vh;
             width: 100%;
         }
 
@@ -36,13 +36,17 @@
         .bdr {
             border: 1px solid black;
         }
+        .nbdr{border:none;}
 
         .mt12 {
             margin-top: 120px;
         }
+        td>img{width:50px;
+        height: 5vh;
+    border-radius: 50%;}
+        
 
-        /* .card>img {
-            height: 35vh;
-            object-fit: cover;
-            transition: transform 0.4s ease;
-        } */
+      .card:hover {
+transform: scale(1.05);
+        
+        } 
